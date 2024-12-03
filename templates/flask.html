@@ -3,7 +3,7 @@
 {% block content %}
 <h2 class="text-center">Apprendre Flask!</h2>
                    
-<!-- Affichage de la des taches -->
+<!-- Affichage de la liste des taches -->
 {% if tasks %}
 <div>
     <table class="table">
@@ -25,7 +25,7 @@
                     <a href="/delete/{{task.id}}/" class="btn btn-danger">Supprimer</a>
                 </th>
             </tr>
-
+            
             {% endfor %}
         </tbody>
 
